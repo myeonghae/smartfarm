@@ -17,7 +17,7 @@ make CMAKE_BUILD_TYPE=Debug <br/>
 sudo make install <br/>
 cd ~ <br/>
  <br/>
-//mjpg 실행, 자세한 것은 mjpg 옵션 참고 <br/>
+mjpg 실행, 자세한 것은 mjpg 옵션 참고 <br/>
 mjpg_streamer -i "input_raspicam.so -vf" -o "output_http.so -p 8090 -w /usr/local/share/mjpg-streamer/www/" <br/>
  <br/>
 #자신의ip주소:8090 접속  <br/>
