@@ -1,6 +1,6 @@
 # smartfarm
 
-#카메라 스트리밍
+#카메라 스트리밍 FPS 최대 10...
 <br/>
 새로운 디렉토리에서 mjpg 클론
 mkdir mjpg <br/>
@@ -17,7 +17,7 @@ make CMAKE_BUILD_TYPE=Debug <br/>
 sudo make install <br/>
 cd ~ <br/>
  <br/>
-mjpg 실행 <br/>
+mjpg 실행 <br/> 
 mjpg_streamer -i "input_uvc.so -fps 10" -o "output_http.so -p 8090 -w /usr/local/share/mjpg-streamer/www/"</br>
 http://172.20.10.3:8090/?action=stream
 </br>
