@@ -18,7 +18,7 @@ sudo make install <br/>
 cd ~ <br/>
  <br/>
 mjpg 실행 <br/>
-mjpg_streamer -i "input_uvc.so -fps 15" -o "output_http.so -p 8090 -w /usr/local/share/mjpg-streamer/www/"</br>
+mjpg_streamer -i "input_uvc.so -fps 10" -o "output_http.so -p 8090 -w /usr/local/share/mjpg-streamer/www/"</br>
 http://172.20.10.3:8090/?action=stream
 </br>
  <br/>
