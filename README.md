@@ -1,11 +1,8 @@
 # smartfarm
 
 #카메라 스트리밍
-# 업데이트, 업그레이드
-sudo apt-get update
-sudo apt-get upgrade
-
-# 새로운 디렉토리에서 mjpg 클론
+<br/>
+새로운 디렉토리에서 mjpg 클론
 mkdir mjpg <br/>
 cd ./mjpg <br/>
 git clone https://github.com/jacksonliam/mjpg-streamer.git <br/>
